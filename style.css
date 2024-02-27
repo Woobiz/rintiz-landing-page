@@ -1,0 +1,48 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero-gradient {
+    background: linear-gradient(to right, #2FAEC3 , #F6BA2F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
+.collapsible {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.content {
+  padding: 20px;
+  display: none;
+  overflow: hidden;
+
+}
